@@ -8,7 +8,7 @@ export default function Todolist(){
         if(json){
             return json
         }
-        return
+        return[]
     }
 
     const [todos, setTodos] = useState(getStoredTodos())
